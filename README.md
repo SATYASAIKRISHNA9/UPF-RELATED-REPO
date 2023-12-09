@@ -31,11 +31,6 @@ This repo gives information on UPF
 ##### Above picture represents the different types of designs. In the following chapters we are going to discuss about it.
 
 
-
-
-
-
-
 Below image shows the multi-voltage design, where we reduce the voltage in lower performance blocks.
 
 
@@ -53,6 +48,11 @@ Next image belongs to combination of Multi-voltage and POWER GATING concept with
 
 <img width="73" alt="snip3" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/a47e0ee8-c0fa-4ce8-8c6f-f891365ca5d9">
 
+
+### Power Gating
+
+
+Power gating is shutting down a portion of design from the (always-on/alive) portion of design. The cells which are communicating to alive portion of design may produce crow bar currents and may manupulate the data. Thats why we need to use isolation cells where communication is going from shut down portion to the alive portion of the design.
 
 
 
