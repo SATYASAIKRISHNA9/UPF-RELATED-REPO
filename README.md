@@ -9,7 +9,7 @@ This repo gives information on UPF
 
   
   ==> Describe how the supply network of a design can be built
-      Create a simple power domain based isolation or retention, or level-shifter strategy
+      (Create a simple power domain based isolation or retention, or level-shifter strategy)
 
       
   ==> Use some of UPF power related commands 
