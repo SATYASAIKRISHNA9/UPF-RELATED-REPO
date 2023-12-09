@@ -22,4 +22,6 @@ This repo gives information on UPF
   ==>UPF represent power intent of the design across the flow (across simulation, verification and implementation)
 
 ### Advanced low power techniques
-        ![image](https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/4b775004-81d1-4b71-acb8-43c3d193343d)
+
+<img width="483" alt="SNIP1" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/ea652410-5d7c-4b8f-ac68-7ffb55637852">
+
