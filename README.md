@@ -52,7 +52,7 @@ Next image belongs to combination of Multi-voltage and POWER GATING concept with
 ### Power Gating
 
 
-Power gating is shutting down a portion of design from the (always-on/alive) portion of design. The cells which are communicating to alive portion of design may produce crow bar currents and may manupulate the data. Thats why we need to use isolation cells where communication is going from shut down portion to the alive portion of the design.
+Power gating is shutting down a portion of design from the (always-on/alive) portion of design. The cells which are communicating from shut-down portion to alive portion of design may produce crow bar currents and may manupulate the data. Thats why we need to use isolation cells where communication is going from shut down portion to the alive portion of the design.
 
 
 
