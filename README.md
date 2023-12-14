@@ -54,5 +54,22 @@ Next image belongs to combination of Multi-voltage and POWER GATING concept with
 
 Power gating is shutting down a portion of design from the (always-on/alive) portion of design. The cells which are communicating from shut-down portion to alive portion of design may produce crow bar currents and may manupulate the data. Thats why we need to use isolation cells where communication is going from shut down portion to the alive portion of the design.
 
+Here we will also use retention cells to retain the previous data.
+
+
+Below picture represents the power gating cell design. Usually it is large in size.
+
+<img width="255" alt="3" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/d6e37cfb-a101-47cd-bd44-89a996713149">
+
+
+
+### LOW VDD STANDY
+
+
+Here we do not want to shut down portion of block, because of dont want to get in headache of extra retention and extra cells [power gating cells]. So, we are going to supply sufficient voltage for the cells in that portion to stand by the data.
+
+
+
+
 
 
