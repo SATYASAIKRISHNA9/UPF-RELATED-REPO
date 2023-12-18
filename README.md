@@ -91,6 +91,30 @@ Here we do not want to shut down portion of block, because of dont want to get i
 
   <img width="543" alt="4" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/ac228804-a871-4a38-a4d6-c87f6c55cd81">
 
+`````````````````````````
+In the above picture the flow starts with RTL and UPF. But both are designed and handled seperately for future modifications. Initial UPF file consists 
+1.  Creation of supply pairs (i.e. supply ports and supply nets).
+2.  Definition of power domains and elements in it.
+3.  Net connectivity between power domains.
+````````````````````````
+
+Design/Fusion compiler will read RTL and UPF file and generates -->  1. Synthesized netlist   &    2. UPF
+
+
+UPF generated from the synthesis stage having information of estimated special cells (level shifters, isolation cells) and connectivity in the interfaces of power domains (operating with different voltage).
+
+
+Later these generated synthesized netlist and upf read by IC Compiler 2 or Fusion Compiler and generates the PGNetlist and UPF
+
+
+PGNetlist -->  Consists of power rails and ground rails information along with the network connectivity of std cells.
+
+
+UPF ----> Consists of network connectivity between power domains, std cells placed w.r.t. power domain, Isolation cells and level shifter connectivity with the interfacing nets etc........
+
+
+
+
 
 ### Power Domain Elements
 
