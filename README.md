@@ -77,8 +77,30 @@ Below picture represents the power gating cell design. Usually it is large in si
 Here we do not want to shut down portion of block, because of dont want to get in headache of extra retention and extra cells [power gating cells]. So, we are going to supply sufficient voltage for the cells in that portion to stand by the data.
 
 
+## Introduction to UPF: Multi-Voltage
 
 
+  We do not need all the blocks of a chip operate at same voltage or all the function requires same level of performance.
+
+
+  For example  ------->   USP vs Processor 
+
+
+  Processor works on a higher speed. So, the processor needs to work with higher speed as fast as semi-conductor tenchnology can allow. USP works with a low performance. So, we can fix USP with a low voltage.
+
+
+  <img width="543" alt="4" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/ac228804-a871-4a38-a4d6-c87f6c55cd81">
+
+
+### Power Domain Elements
+
+
+1.  Power Domains will be operating at different voltages.
+2.  Power Domains may ON (OR) OFF depends on the logic and performance (in simple behaviour of their primary supplies).
+3.  It requires special cells (power management cells) in the interfaces of power domains (operating with different voltages)
+
+
+<img width="271" alt="5" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/cfa04fc3-bfe6-47ca-8aea-374737afd431">
 
 
 
