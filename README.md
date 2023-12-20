@@ -144,12 +144,14 @@ UPF ----> Consists of network connectivity between power domains, std cells plac
 
 ````````````````````````````````````
 Power domains are logic characteristics with common power characteristics.
-Power domains can be defined on hierarchical sub blocks based on below specifications.
+Power domains can be defined on hierarchical sub blocks based on below specifications: -
+    1. Each hierarchical cell can belong to only one power domain.
+    2. If undefined, power domain is inherited from parent.
+    3. A leaf cell inherits its power domain from its parent.
+    4. Nested power domains are allowed.
+`````````````````````````````````````````
 
 
-
-
-```````````````````````````````````````
 
 
 
