@@ -127,5 +127,30 @@ UPF ----> Consists of network connectivity between power domains, std cells plac
 <img width="271" alt="5" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/0a561818-fd62-4800-9ef9-4f42d070b75e">
 
 
+###### SUPPLY SETS --> Each supply set consists of one power supply net and one ground supply net is called a supply set.
+
+### UPF Design Elements 
+
+
+1. Power Domains  
+2. Logic inside power domains -->  These logics are mainly driven by the primary supply sets 
+3. Design Power States   -->   Power states of a design describe the behaviour of the supply network.
+4. Supply Sets
+5. Supply nets
+6. Power management cells  -->  These are special cells which are placed in interface to transfer data between domains
+
+
+#### Power Domains
+
+````````````````````````````````````
+Power domains are logic characteristics with common power characteristics.
+Power domains can be defined on hierarchical sub blocks based on below specifications.
+
+
+
+
+```````````````````````````````````````
+
+
 
 
