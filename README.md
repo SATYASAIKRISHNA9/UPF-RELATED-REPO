@@ -96,7 +96,7 @@ In the above picture the flow starts with RTL and UPF. But both are designed and
 1.  Creation of supply pairs (i.e. supply ports and supply nets).
 2.  Definition of power domains and elements in it.
 3.  Net connectivity between power domains.
-````````````````````````
+``````````````````````````
 
 Design/Fusion compiler will read RTL and UPF file and generates -->  1. Synthesized netlist   &    2. UPF
 
@@ -118,13 +118,14 @@ UPF ----> Consists of network connectivity between power domains, std cells plac
 
 ### Power Domain Elements
 
-
+``````````````````````````````````
 1.  Power Domains will be operating at different voltages.
 2.  Power Domains may ON (OR) OFF depends on the logic and performance (in simple behaviour of their primary supplies).
 3.  It requires special cells (power management cells) in the interfaces of power domains (operating with different voltages)
+```````````````````````````````````
 
+<img width="271" alt="5" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/0a561818-fd62-4800-9ef9-4f42d070b75e">
 
-<img width="271" alt="5" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/cfa04fc3-bfe6-47ca-8aea-374737afd431">
 
 
 
