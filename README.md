@@ -146,13 +146,30 @@ UPF ----> Consists of network connectivity between power domains, std cells plac
 Power domains are logic characteristics with common power characteristics.
 Power domains can be defined on hierarchical sub blocks based on below specifications: -
     1. Each hierarchical cell can belong to only one power domain.
-    2. If undefined, power domain is inherited from parent.
+    2. If hierarchy is undefined, power domain is inherited from parent.
     3. A leaf cell inherits its power domain from its parent.
     4. Nested power domains are allowed.
 `````````````````````````````````````````
 
+creation of power domain is used by following way 
 
 
+create_power_domain PD_TOP -elements {.}      ;# which creates the top level power domain 
+
+
+create_power_domain PD_SW -elements {pd_switchable}      ;# after creating of top scope we are creating a power domain which is switchable inside top level power domain
+
+
+<img width="475" alt="6" src="https://github.com/SATYASAIKRISHNA9/UPF-RELATED-REPO/assets/79971687/4988d9a6-717f-41ff-8cc0-efd3e5131795">
+
+
+#### Power Domain Boundaries 
+
+
+There can be electrical violations in a path from a power gated domain to a domain (i.e. constantly on). As this can generate 1. Crow-bar urrents 2. Corruption 3. Propogation of previous signals. There can also be an electrical violations in a paths that operates different voltage level than than the lower domain as power domain group with common electrical characteristics. Electrical problems those such as previously mentioned are typically seen in the interfaces of power domains. So, their handling needs special attention, for this purpose power management cells are typically used. POWER MANAGEMENT cells are used to handle electrical violations between logic that drives by different electrical characteristics
+
+
+#### Need to write
 
 
 
